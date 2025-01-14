@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="glow">Hey hey hey!</h1>
+    </header>
+    <main>
+      <section class="hero">
+        <img src="images/birthday-cake.jpg" alt="birthday-cake">
+        <p>Wishing you all the happiness in the world on your special day!</p>
+      </section>
+      <section class="gallery">
+        <h2>Our Memories</h2>
+        <div class="photos">
+          <img src="images/photo1.jpg" alt="photo1">
+          <img src="images/photo2.jpg" alt="photo2">
+          <img src="images/photo3.jpg" alt="photo3">
+          <img src="images/photo4.jpg" alt="photo4">
+          <img src="images/photo5.jpg" alt="photo5">
+          <img src="images/photo6.jpg" alt="photo6">
+        </div>
+      </section>
+      <section class="playlist">
+        <h2>Our Favorite Songs</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BHQ1q7UGJ8veRy7Zvo1rv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+      <section class="message">
+        <h2>Special Message</h2>
+        <button onclick="openPopup  ()"><b>Click for Surprise</b></button>
+        <div id="popup" class="popup">
+          <div class="popup-content">
+            <span class="close" onclick="closePopup()">×</span>
+            <h2>🎉 To my favorite person! 🎁</h2>
+            <p class="popup-message"></p>
+            <b>You’re the best friend anyone could ask for sweetie!🌟  <br> I’m so lucky to have you in my life for almost two decades. <br> Come back soon. <br> Love you so much!  <br> Joel </p> </b>
+            <hr class="decorative-line">
+            <p>🎈 <b>Let’s celebrate together soon! </b>🎊</p> <br>
+            <button class="action-button" onclick="anotherSurprise()"> <b>Another Surprise!</b></button>
+            <div id="another-surprise" class="another-surprise">
+              <div class="surprise-content">
+                <span class="close" onclick="closeAnotherSurprise()">×</span>
+                <h2>🎁 You’re Amazing! 💖</h2>
+                <p>Keep glowing like the way you are! 🌟</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Made with ❤️ by Joel. All Rights Reserved</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
